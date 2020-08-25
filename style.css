@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgb(29, 25, 31,.7)), url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main{
+    text-align: center;
+    color: #fff;
+    font-family: 'Mukta', sans-serif;
+}
+
+#title{
+    font-weight: 900;
+    padding-top: 2rem;
+    font-style: italic;   
+}   
+
+#description{
+    font-size: 1.25rem;
+}
+
+#survey-form{
+    background-color: rgba(48, 23, 160, 0.6);
+    text-align: left;
+}
