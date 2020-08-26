@@ -10,6 +10,10 @@ body{
     font-family: 'Mukta', sans-serif;
 }
 
+#main p{
+    font-size: 1.30rem;
+}
+
 #title{
     font-weight: 900;
     padding-top: 2rem;
@@ -21,6 +25,37 @@ body{
 }
 
 #survey-form{
-    background-color: rgba(48, 23, 160, 0.6);
+    background: linear-gradient(to left, rgb(83, 144, 217, .8), rgb(105, 48, 195, .8));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: left;
 }
+
+label{
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #fad7f7; 
+}
+
+.form-group .form-control{
+    padding: 1.25rem !important;
+    background: rgba(72, 191, 227, .2);
+    color: #fff;
+}
+
+.form-group .form-control::placeholder{
+    color: #fff;
+}
+
+.btn-pink {
+    color: #fff !important; 
+    background-color: #7400b8 !important;
+    border-color: #7400b8 !important;
+  }
+  
+.btn-pink:hover {
+    color: #fff !important;
+    background-color: #5390d9 !important;
+    border-color: #5390d9 !important;
+  }
